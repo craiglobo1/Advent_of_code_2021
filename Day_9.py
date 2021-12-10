@@ -52,8 +52,6 @@ def getBasin(heights, loc, found : Set):
             getBasin(heights, val, found)
     
     return found
-        
-    
 
 def pt2(lines):
     heights = [ list(row) for row in lines]
